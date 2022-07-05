@@ -1,3 +1,6 @@
 persist.perf_profile        u:object_r:perf_prop:s0
 persist.cabc_profile        u:object_r:cabc_prop:s0
 ro.telephony.default_network u:object_r:radio_prop:s0
+persist.vendor.rpmb.enable.state u:object_r:vendor_default_prop:s0
+ctl.stop$ril-daemon         u:object_r:ctl_stop_prop:s0
+vendor.sms.md.ready         u:object_r:vendor_default_prop:s0
